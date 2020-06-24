@@ -1,0 +1,12 @@
+server:
+  port: 18460
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  application:
+    name: jwt-auth
+  http:
+    encoding:
+      force: true
+      enabled: true
+      charset: UTF-8
